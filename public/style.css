@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(myPhoto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.word{
+    margin-top: 150px;
+    margin-bottom: 55px;
+    font-size: 25px;
+    color: white;
+    font-style:normal;
+}
+.person input{
+    height: 35px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.msg textarea{
+    border-radius: 5px;
+    margin: 10px;
+    height: 50px;
+    width: 355px;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
